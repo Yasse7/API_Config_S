@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "DWZNL+/omBOKl1cUVFFgvFk9QbWItGz8/rQ95zCarexTQGZTYHKHzAEYgwKaJ3I/3lUiqhZUTnzByVZxDLP69Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Yassir.JERRARI\\source\\repos\\Config_API_S\\Domain\\Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Yassir.JERRARI\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
+    "C:\\Users\\Yassir.JERRARI\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

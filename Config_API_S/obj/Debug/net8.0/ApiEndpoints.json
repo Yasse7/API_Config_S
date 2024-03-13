@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "Config_API_S.Controllers.StudentController",
+    "Method": "GetStudents",
+    "RelativePath": "stu/students",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Config_API_S.Controllers.StudentController",
+    "Method": "CreateStudent",
+    "RelativePath": "student",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cmd",
+        "Type": "Application.Students.CreateStudentCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
