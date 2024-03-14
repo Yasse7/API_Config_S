@@ -10,6 +10,6 @@ namespace Domain.Repositories
     public interface IStudentrepository
     {
         List<StudentEntity> GetAll(CancellationToken cancellationToken);
-        bool CreateStudent(StudentEntity student , CancellationToken cancellationToken);
+        StudentEntity CreateStudent(StudentEntity student , CancellationToken cancellationToken);
     }
 }

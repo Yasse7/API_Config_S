@@ -13,3 +13,4 @@ C:\Users\Yassir.JERRARI\source\repos\Config_API_S\Infrastructure\obj\Debug\net8.
 C:\Users\Yassir.JERRARI\source\repos\Config_API_S\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
 C:\Users\Yassir.JERRARI\source\repos\Config_API_S\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
 C:\Users\Yassir.JERRARI\source\repos\Config_API_S\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+C:\Users\Yassir.JERRARI\source\repos\Config_API_S\Infrastructure\obj\Debug\net8.0\Infrastructure.sourcelink.json

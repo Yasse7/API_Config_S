@@ -41,3 +41,4 @@ C:\Users\Yassir.JERRARI\source\repos\Config_API_S\Config_API_S\obj\Debug\net8.0\
 C:\Users\Yassir.JERRARI\source\repos\Config_API_S\Config_API_S\bin\Debug\net8.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\Yassir.JERRARI\source\repos\Config_API_S\Config_API_S\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\Yassir.JERRARI\source\repos\Config_API_S\Config_API_S\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Yassir.JERRARI\source\repos\Config_API_S\Config_API_S\obj\Debug\net8.0\Config_API_S.sourcelink.json

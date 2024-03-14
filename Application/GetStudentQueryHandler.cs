@@ -28,7 +28,7 @@ namespace Application
             //donnees (reposi) : injection de depandance 
             var resultData = _studentRepository.GetAll(cancellationToken);
              
-           var students = new List<Student>();
+            var students = new List<Student>();
            
             foreach (var student in resultData)
                {

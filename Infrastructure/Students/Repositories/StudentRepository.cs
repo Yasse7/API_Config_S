@@ -19,10 +19,10 @@ namespace Infrastructure.Students.Repositories
 
             };
 
-        public bool CreateStudent(StudentEntity student, CancellationToken cancellationToken)
+        public StudentEntity CreateStudent(StudentEntity student, CancellationToken cancellationToken)
         {
             _students.Add(student);
-            return true; 
+            return student; 
         }
 
         public List<StudentEntity> GetAll(CancellationToken cancellationToken)

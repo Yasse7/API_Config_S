@@ -1,4 +1,6 @@
-﻿using Domain.Entities;
+﻿using Application.Students.Model;
+using AutoMapper;
+using Domain.Entities;
 using Domain.Repositories;
 using Infrastructure.Students.Repositories;
 using MediatR;
@@ -10,26 +12,30 @@ using System.Threading.Tasks;
 
 namespace Application.Students
 {
-    public class CreateStudentCommandHandler : IRequestHandler<CreateStudentCommand, bool>
+    public class CreateStudentCommandHandler : IRequestHandler<CreateStudentCommand, Student>
     {
-        public readonly IStudentrepository _studentrepository;
-        public CreateStudentCommandHandler(IStudentrepository studentrepository)
+        private readonly IStudentrepository _studentrepository;
+        private readonly IMapper _mapper;
+        public CreateStudentCommandHandler(IStudentrepository studentrepository, IMapper mapper)
         {
             _studentrepository = studentrepository;
+            _mapper= mapper;
         }
-        public Task<bool> Handle(CreateStudentCommand request, CancellationToken cancellationToken)
+        public Task<Student> Handle(CreateStudentCommand request, CancellationToken cancellationToken)
         {
             //validation 
             //automapper
-            var student = new StudentEntity
-            {
-                id = request.Id,
-                name = request.Name,
-                Age = request.Age
-            };
-
+            var student= _mapper.Map<StudentEntity>(request);
+            //var student = new StudentEntity
+            // {
+                //id = request.Id,
+               //name = request.Name,
+                //Age = request.Age
+           // };
+            
             var result = _studentrepository.CreateStudent(student, cancellationToken);
-            return Task.FromResult(result);
+            var rs = _mapper.Map<Student>(result);
+            return Task.FromResult(rs);
 
         }
     }
